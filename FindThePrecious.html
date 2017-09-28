@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="//code.jquery.com/jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>findThePrecious</title>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="assets/_logo.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Fellows</a></li>
+        <li><a href="#">The Ring</a></li>
+       	<li><a href="#">Rewards</a></li>
+       	<li><a href="#">Hunters</a></li>
+       	<li><a href="#">Join</a></li>
+       	<li><a href="#">Contact</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!--carousel-->
+<div class="container-fluid">
+	<div class="row">
+		<div id="carouselone" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselone" data-slide-to="0" class=""></li>
+				<li data-target="#carouselone" data-slide-to="1" class=""></li>
+				<li data-target="#carouselone" data-slide-to="2" class="active"></li>
+			</ol>
+		<div class="carousel-inner">
+			<div class="item">
+				<img src="assets/_dark_vador_carousel.png">
+				<div class="container-fluid">
+					<div class="carousel-caption">
+						<h1>Sauron is a very good bro,</h1>
+						<p>please help him to find his ring!		D.V.</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img src="assets/_dark_vador_carousel.png">
+				<div class="container-fluid">
+					<div class="carousel-caption">
+						<h1>Sauron is a very good bro,</h1>
+						<p>please help him to find his ring!		D.V.</p>
+					</div>
+				</div>
+			</div>
+			<div class="item active">
+				<img src="assets/_dark_vador_carousel.png">
+				<div class="container-fluid">
+					<div class="carousel-caption">
+						<h1>Sauron is a very good bro,</h1>
+						<p>please help him to find his ring!		D.V.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	<a class="left carousel-control" href="#carouselone" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+	<a class="right carousel-control" href="#carouselone" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div>
+	</div>
+</div>	
+	<!--pills-->
+<div class="my_Pills">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-offset-4 col-md-8 order">
+				Fellows wanted dead (or alive if you want to eat them later)
+			</div>
+		</div>
+		<div class="row">
+			<div class="target_wanted">
+				<div class="col-md-offset-3 col-md-2">
+					Most wanted
+				</div>
+				<div class="col-md-2">
+					Most dangerous
+				</div>
+				<div class="col-md-2">
+					Already captured
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-offset-1 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="assets/_gandalf_reward.png" alt="Gandalf">
+					<div class="reward">Reward <strong>1000</strong><br>golden coins</div>
+					<div class="target_name">Gandalf</div>
+					<div class="comment">a very dangerous wizard a balrog killer</div>
+				</a>
+			</div>
+			<div class="col-md-offset-1 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="assets/_aragorn.png" alt="Aragorn">
+					<div class="reward">Reward <strong>800</strong><br>golden coins</div>
+					<div class="target_name">Aragorn</div>
+					<div class="comment">sauron's finger says him his sword is dangerous</div>
+				</a>
+			</div>
+			<div class="col-md-offset-1 col-md-3">
+				<a href="#" class="thumbnail">
+					<img src="assets/_gimli.png" alt="Gimli">
+					<div class="rewardgimli"><strong>DEAD</strong></div>
+					<div class="target_name_gimli">Gimli</div>
+					<div class="comment">a dwarf with a beard and an axe</div>
+				</a>
+			</div>
+		</div>
+		<div class="captured">
+			<div class="row">
+				<h2>I have captured one of them, how to get my reward ?</h2>
+				<div class="col-md-offset-1 col-md-7 lorem_ipsum">Lorem ipsum dolor sit amet, iusto audire eu has. Quo ad stet melius facilis, cu esse error pro. Esse electram ex vis, audiam definitionem usu te, movet molestie phaedrum qui an. Minim apeirian oportere mel te. Nec at veniam cetero. Odio dicta graeci ut mel. Ea eam aliquip ponderum, duo ei mnesarchum reformidans. Duo id unum primis similique. Impetus percipit usu id, facete philosophia nec ne, consul qualisque maluisset ea pro. At vel molestiae delicatissimi. An vix suas quodsi philosophia, duo docendi pertinax ad.
+
+				Ad mea mollis facilis, eam rationibus persequeris in, ei est porro nusquam. At mazim latine accommodare eos, sonet impetus id sea. Usu ferri meliore reprimique an, nostrud reformidans at nam, vivendo rationibus eam ex. Cetero oportere maluisset pro ut, cu sea mnesarchum liberavisse. Soluta menandri mei no, ut mei alia nominavi deleniti. Vis graece corrumpit repudiandae cu. Summo recteque voluptaria et his, docendi offendit at vix.
+
+				Sit cu brute impedit, quis essent offendit ius ea. Qui in adhuc luptatum. Constituto adversarium eu per, te blandit volutpat postulant usu. Meis accommodare ex pro, sit ornatus propriae deserunt ex. Ex vel libris omnium eripuit, vim odio vivendo in, mazim paulo persius in qui. Ne mollis qualisque qui, postea labores placerat has ne, ad sale vocibus gubergren eum.
+
+				Duo populo numquam cu, cum ut tation putant. Rebum consequuntur sit ei, usu ea stet quaestio, solum quodsi mollis mea an. No mea probatus reprimique ullamcorper, blandit disputationi vix te. Te nisl illud pri, ius putent pertinax ne. Ex oblique singulis voluptaria vel, quis habeo sed no. Vel sale dicam cotidieque et, suas illum falli has et.</div>
+				<div class="col-md-offset-1 col-md-3 coin_sauron">
+					<img class="img-circle" src="assets/_coin_sauron.png">
+				</div>
+			</div>
+			<div class="row">	
+				<div class="col-md-offset-5 col-md-2">
+					<button type="button" class="btn btn-default">Contact us</button>
+				</div>
+			</div>
+		</div>	
+	</div>	
+</div>
+<!--media object-->
+<div class="Besthunter">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-offset-1 col-md-4 title_best">Our Best Hunter</div>
+		</div>
+		<div class="row">
+			<div class="col-md-offset-1 col-md-1">
+				<img src="assets/_hunter1.png">
+			</div>
+			<div class="col-md-4">
+				<h3>elveskiller22</h3>
+				<p>2 captures - <a href="#">profile</a></p>
+				<div class="hate">12 hate</div>
+			</div>
+			<div class="col-md-offset-1 col-md-1">
+				<img src="assets/_hunter2.png">
+			</div>
+			<div class="col-md-4">
+				<h3>goblin45</h3>
+				<p>1 capture - <a href="#">profile</a></p>
+				<div class="hate">18 hate</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Panels-->
+<div class="About_Ring">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="title_ring col-md-offset-1">About The Ring</div>
+		</div>
+		<div class="row">
+			<div class="panel panel-info col-md-offset-3 col-md-6">
+				<div class="panel-heading">
+					<h3 class="panel-title">Ring capabilities</h3>
+				</div>
+				<div class="panel-body">
+					<table class="table table-hover">
+						<thead>
+							<tr>
+								<th>Feature</th>
+								<th>Desscription</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Main</td>
+								<td>Rule them all !</td>
+							</tr>
+							<tr>
+								<td>Invisibility</td>
+								<td>Youcan't see me</td>
+							</tr>
+							<tr>
+								<td>Power</td>
+								<td>Destroy them all</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="panel panel-info col-md-offset-3 col-md-6">
+				<div class="panel-heading">
+					<h3 class="panel-title">Why the Ring is awesome ?</h3>
+				</div>
+				<div class="panel-body col-md-8 precious_text">
+					my precioooooooouuuuuuussssssss ! erk erk, ! we want our preciioooouuussssss !!!
+				</div>
+				<div class="col-md-4"><img src="assets/_gollum.png" class="img-circle"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Join Mordor army-->
+<div class="Join_Mordor">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="title_Mordor col-md-offset-1 col-md-6">Join Mordor army, we need you !</div>
+		</div>
+		<div class="row">
+			<div class="col-md-offset-1 col-md-6">
+				Lorem ipsum dolor sit amet, iusto audire eu has. Quo ad stet melius facilis, cu esse error pro. Esse electram ex vis, audiam definitionem usu te, movet molestie phaedrum qui an. Minim apeirian oportere mel te. Nec at veniam cetero.
+
+				Odio dicta graeci ut mel. Ea eam aliquip ponderum, duo ei mnesarchum reformidans. Duo id unum primis similique. Impetus percipit usu id, facete philosophia nec ne, consul qualisque maluisset ea pro. At vel molestiae delicatissimi. An vix suas quodsi philosophia, duo docendi pertinax ad.
+			</div>
+			<div class="col-md-4"><img src="assets/_army.png"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-offset-1 col-md-4"><img src="assets/_weneedyou-1.png"></div>
+			<div class="col-md-offset-3 col-md-3 btninfo">More info on<br><button type="button" class="btn btn-info">sauronrulesthemall.com<button></div>
+		</div>
+	</div>
+</div>
+<!--Contact-->
+<div class="contact">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="title_contact col-md-offset-1 col-md-3">Contact us</div>
+		</div>
+		<div class="row">
+			<div class="col-md-offset-1 col-md-5">
+				<div>
+					<input type="email" name="user_mail" placeholder="@">
+				</div>
+				<div>
+					<input type="text" name="user_addresse" placeholder="addrese">
+				</div>
+				<div>
+					<select name="user_target">
+						<option selected="select" disabled="disabled">I have seen one</option>
+						<option>Aragorn</option>
+						<option>Gandalf</option>
+					</select>
+				</div>
+				<div>
+					<textarea name="commentaire" placeholder="your message to the master" rows="10" cols="50"></textarea>
+				</div>
+			</div>
+			<div class="col-md-5">
+				<div><img src="assets/_map.png"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Footer-->
+<div class="Footer">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-offset-1 col-md-3">
+				<ul class="list-group">
+					<li class="list-group-item">About us</li>
+					<li class="list-group-item">Fellows</li>
+					<li class="list-group-item">Join our army</li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<ul class="list-group">
+					<li class="list-group-item">FAQ</li>
+					<li class="list-group-item">Reward conditions</li>
+					<li class="list-group-item">Legal mentions</li>
+				</ul>
+			</div>
+			<div class="col-md-offset-2 col-md-3">
+				<ul class="list-group">
+					<li class="list-group-item">sauron4ever.com</li>
+					<li class="list-group-item">Follow him on twitter</li>
+					<li class="list-group-item"><img src="assets/_logo.png"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

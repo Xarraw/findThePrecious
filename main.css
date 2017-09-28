@@ -1,0 +1,321 @@
+@font-face
+{
+	font-family: 'elvish_shit';
+	src: url('assets/anicb___.ttf');
+}
+
+@font-face
+{
+	font-family: 'puces_elvish';
+	src: url('assets/partybusiness.ttf') format('truetype');
+}
+
+.puces
+{
+	font-family: 'puces_elvish';
+	color: rgb(255, 95, 1);
+}
+
+div
+{
+	font-family: 'elvish_shit';
+}
+
+.navbar
+{	
+	color: white;
+	background-color: rgb(255, 95, 1);
+}
+
+.carousel-caption
+{
+	top: 30%;
+	bottom: auto;
+}
+
+.carousel
+{
+
+	margin-top: -22px;
+}
+
+.my_Pills
+{
+	background-image: url(assets/_bg_light.png);
+	padding-bottom: 100px;
+}
+
+.order
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.target_wanted
+{
+
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+
+.thumbnail
+{
+	position: relative;
+	display: inline-block;
+	max-width: 326px;
+}
+
+.thumbnail img
+{
+	opacity: 0.7;
+}
+
+
+.thumbnail:hover img
+{
+	opacity: 1;
+}
+
+.thumbnail:hover > .reward
+{
+	display: none;
+}
+
+.thumbnail:hover > .rewardgimli
+{
+	display: none;
+}
+
+.thumbnail:hover > .comment
+{
+	display: none;
+}
+
+.reward
+{	
+	display: inherit;
+	position: absolute;
+	margin-top: -95%;
+	margin-left: 18%;
+	background-color: white;
+	color: rgb(19,19,19);
+	font-size: 17px;
+	text-align: center;
+	width: 60%;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0px 0px 30px white;
+
+}
+
+.rewardgimli
+{	
+	display: inherit;
+	position: absolute;
+	margin-top: -95%;
+	margin-left: 20%;
+	color: rgb(19,19,19);
+	font-size: 17px;
+	text-align: center;
+	width: 60%;
+
+}
+
+
+.target_name
+{
+	position: absolute;
+	margin-top: -60%;
+	margin-left: 22%;
+	color: white;
+	font-size: 25px;
+}
+
+.target_name_gimli
+{
+	position: absolute;
+	margin-top: -60%;
+	margin-left: 33%;
+	color: white;
+	font-size: 25px;
+}
+
+.comment
+{
+	background-color: rgb(19,19,19);
+	color: white;
+	font-size: 17px;
+	text-align: center;
+	width: 100%;
+}
+
+strong
+{
+	color: rgb(226,107,23);
+}
+
+.captured
+{
+	background-image: url(assets/_bg_dark.png);
+	color: white;
+}
+
+h2
+{
+	text-align:center;
+	color: white;
+}
+
+.btn
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 95%;
+	color: rgb(226,107,23); 
+}
+
+.coin_sauron
+{
+	margin-top: 60px;
+}
+
+.lorem_ipsum
+{
+	margin-top: 30px;
+}
+
+.title_best
+{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.Besthunter
+{
+	background-image: url(assets/_bg_light.png);
+	margin-bottom: 100px;
+}
+
+.hate
+{
+	background-image: url(assets/_bg_dark.png);
+	max-width: 75px;
+	text-align: center;
+	color: rgb(226,170,23);
+}
+
+h3
+{
+	font-size: 30px;
+	color: rgb(226,107,23);
+}
+ 	
+a
+{
+	color: black;
+}
+
+a:hover
+{
+	color: black;
+}
+
+.About_Ring
+{
+	padding-bottom: 60px;
+	background-image: url(assets/_bg_dark.png);
+}
+
+.title_ring
+{
+	color: white;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.ring_capa
+{
+	background-color: rgb(255, 95, 1);
+}
+
+thead
+{
+	font-size: 20px;
+}
+
+.quotes
+{
+	color: white;
+}
+
+tr
+{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.panel-info > .panel-heading
+{
+	background-color: rgb(255, 95, 1);
+}
+
+.panel-title
+{
+	color: white;
+}
+
+.precious_text
+{
+	font-size: 20px;
+}
+
+.Join_Mordor
+{
+	background-image: url(assets/_bg_light.png);
+	padding-bottom: 60px;
+}
+
+.title_Mordor
+{
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-top: 20PX;
+}
+
+.btninfo
+{
+	font-size: 30px;
+	margin-top: 45px;
+	text-align: center;
+	color: rgb(255,95,1)
+}
+
+.btn-info
+{
+	background-image: url(assets/_bg_dark.png);
+}
+
+.contact
+{
+	background-image: url(assets/_bg_dark.png);
+	padding-bottom: 60px;
+}
+
+.title_contact
+{
+	font-size: 30px;
+	color: white;
+	margin-bottom: 40px;
+
+}
+
+.Footer
+{
+	background-color: rgb(255, 95, 1);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.list-group-item
+{
+	background-color: rgb(255, 95, 1);
+}
